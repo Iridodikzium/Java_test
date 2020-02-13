@@ -30,7 +30,7 @@ public class Main {
         Set<String> groupsNamesNew = finder.findOldMembers(membersGroupList, targetAge);
         //если возраст всех членов групп меньше targetAge (нет людей и список пуст)
         if (groupsNamesNew.isEmpty()){
-            System.out.println("There are no people older than "+ targetAge + " in th list");
+            System.out.println("There are no people older than "+ targetAge + " in the list");
         }
         //если список не пуст
         else {
